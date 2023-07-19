@@ -9,3 +9,6 @@ without much prior knowledge in astronomy, however, `Python` is a prerequisite.
 These tutorials are slightly modified from the tutorials used for a research workshop 
 carried out for undergraduate students as part of the [Astro Bridge](https://www.astrobridge.org/projects/bdlensing) program.
 
+The reference textbook is [Introduction to Gravitational Lensing](https://link.springer.com/book/10.1007/978-3-030-73582-1) by Massimo Meneghetti.
+
+
