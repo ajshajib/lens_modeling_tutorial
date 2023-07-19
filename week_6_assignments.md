@@ -13,7 +13,7 @@ the notebook in a Markdown cell.
    files.
 3. Make sure the appropriate PSF is being provided to `lenstronomy` through `kwargs_psf`.
 4. You need to add external shear to the `lens_model_list` with the profile name 
-   ‘SHEAR’. The free parameters in this profile are: `‘gamma1’` and `‘gamma2’`, and the fixed parameters are ‘ra_0’: 0, ‘dec_0’: 0. The upper and lower values for `‘gamma1’` and `‘gamma2’` are 0.3 and -0.3. (`lenstronomy` documentation: https://lenstronomy.readthedocs.io/en/latest/lenstronomy.LensModel.Profiles.html#lenstronomy.LensModel.Profiles.shear.Shear) 
+   ‘SHEAR’. The free parameters in this profile are: `‘gamma1’` and `‘gamma2’`, and the fixed parameters are `‘ra_0’: 0`, `‘dec_0’: 0`. The upper and lower values for `‘gamma1’` and `‘gamma2’` are 0.3 and -0.3. (`lenstronomy` documentation: https://lenstronomy.readthedocs.io/en/latest/lenstronomy.LensModel.Profiles.html#lenstronomy.LensModel.Profiles.shear.Shear) 
 5. You need to add the `‘SHAPELETS’` light profile to the `source_model_list`. The free 
    parameters are `‘beta’`, `‘center_x’`, and `‘center_y’`. But, `‘center_x’` and `‘center_y’` need to be joined with the `‘center_x’` and `‘center_y’` of the Sersic light profile in the `source_model_list`. The fixed parameter is `‘n_max’`, you can try values between 4 and 6 for the fixed value of `‘n_max’`. (`lenstronomy` documentation: https://lenstronomy.readthedocs.io/en/latest/lenstronomy.LightModel.Profiles.html#module-lenstronomy.LightModel.Profiles.shapelets)
 
