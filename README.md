@@ -1,7 +1,7 @@
 # Lens modeler in six weeks
 
 This repository contains tutorials to self-learn 
-lens modeling with `lenstronomy` through assignments and work notebooks. 
+lens modeling with [`lenstronomy`](https://github.com/lenstronomy/lenstronomy) through assignments and work notebooks. 
 The assignments are designed to be completed 
 in six weeks. This tutorial is geared for 2nd/3rd year undergraduate students and above 
 without much prior knowledge in astronomy, however, `Python` is a prerequisite. 
